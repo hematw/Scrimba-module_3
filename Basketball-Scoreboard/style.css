@@ -60,14 +60,13 @@ body {
 
 .reset-btn {
     background-color: transparent;
-    padding: 8px;
-    width: 170px;
+    padding: 8px 26px;
     border-radius: 8px;
     border: 2px solid #eee;
-    font-size: 2em;
+    font-size: 1.3em;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #eee;
-    margin-bottom: 24px;
+    margin: 24px;
     cursor: pointer;
     transition: all .3s ease-in-out;
 }
@@ -75,4 +74,9 @@ body {
 button:hover {
     color: #102426;
     background-color: #eee;
+}
+
+.who-is-head {
+    font-size: 2em;
+    color: yellow;
 }
