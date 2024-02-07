@@ -45,6 +45,6 @@ function copyPassword() {
     navigator.clipboard.writeText(passwordInput.value)
 }
 
+length.addEventListener("input", updateLabel);
 generateBtn.onclick = generatePassword;
-length.onchange = updateLabel;
 copyBtn.onclick = copyPassword;
